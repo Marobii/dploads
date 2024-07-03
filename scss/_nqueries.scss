@@ -1,0 +1,531 @@
+    /* Below 544px (Phones) 34em*/ 
+    /* Below 704px 44em*/ 
+    /* Below 944px => 944/16 (Tablets) 59em*/ 
+    /* Below 1200px => 1200/16 (Landscape Tablets) 75em*/ 
+    /* Below 1344px (smaller desktops) 84em*/
+@media (max-width: 160em) and (min-width: 160em){
+    /* Intro */
+    .main-nav-link:link, .main-nav-link:visited{
+        font-size: 2.6rem;
+    }
+    .heading-primary{
+        font-size: 20rem;
+    }
+    .heading-secondary{
+        font-size: 3rem;
+    }
+    
+    .btn, .btn:link, .btn:visited{
+        padding: 2.5rem 6rem;
+        font-size: 2.8rem;
+    }
+    .social-txt{
+        font-size: 2.6rem;
+    }
+    ion-icon {
+        font-size: 4.5rem;
+    }
+}
+
+@media(max-width: 100em){
+    /* Intro */
+    .intro-flex{
+        margin-top: 7rem;
+    }
+}
+
+@media(max-width: 91em){
+    /* Intro */
+    .main-nav .main-nav-list{
+        margin-top: 8rem ;
+    }
+    .intro-flex{
+        margin-top: 3rem;
+    }
+    .heading-secondary{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 87em){
+    /* Intro */
+    .main-nav .main-nav-list{
+        margin-top: 6rem;
+    }
+    .intro-flex{
+        margin-top: 6rem;
+    }
+}
+
+/* Below 1344px (smaller desktops) 84em*/
+@media(max-width: 84em){
+    /* Intro */
+    .intro-flex{
+        margin-top: 3rem;
+    }
+}
+
+/* Below 1200px => 1200/16 (Landscape Tablets) 75em*/ 
+@media(max-width: 75em){
+   /* General */
+   .section-calendar,
+   .section-gallery,
+   .section-contact,
+   .footer{
+       padding: 4rem 4rem;
+   }
+
+   /* Intro */
+   .main-nav .main-nav-list{
+       font-size: 1.6rem;
+   }
+
+   .intro-flex{
+        margin-top: 1rem;
+   }
+
+   .heading-primary{
+        font-size: 12rem;
+   }
+   
+   .heading-secondary{
+       font-size: 1.3rem;
+   }
+
+   .btn, .btn:link, .btn:visited{
+       font-size: 1.8rem;
+   }
+   
+   .social-txt{
+       font-size: 1.8rem;
+   }
+
+   #intro-3{
+       margin-left: 4rem;
+   }
+   
+   .social-facebook{
+       margin-right: 2rem;
+   }
+
+   /* Slide */
+   .carousel{
+       padding: 4rem 4rem;
+   }
+
+   .carousel-cell{
+       font-size: 1.8rem;
+   }
+
+   /* Cultura */
+   .culture-right{
+       padding-right: 4rem;
+   }
+
+   .culture-left{
+       padding-left: 4rem;
+   }
+   .culture-photo{
+        width: 35rem;
+    }
+
+   .culture-title{
+       font-size: 3rem;
+   }
+
+   .culture-Description{
+       font-size: 1.8rem;
+   }
+   .culture-btn, .culture-btn:link, .btn:visited{
+       font-size: 1.8rem;
+   }
+
+   /* Calendar */
+   .item2 .activ-title{
+       font-size: 2.2rem;
+   }
+
+   /* Contactos */
+   .loc-title,
+   .cont-title,
+   .soci-title{
+       font-size: 2rem;
+   }
+
+   .loc-desc,
+   .cont-email,
+   .cont-phone{
+       font-size: 1.8rem;
+   }
+
+   .contact-flex ion-icon {
+       font-size: 2.6rem;
+   }
+}
+
+
+@media (max-width: 68em){
+    .main-nav .main-nav-list{
+        margin-top: 5rem;
+    }
+    .intro-flex{
+        margin-top: 0rem;
+    }
+    .heading-primary{
+        font-size: 12rem;
+        margin-bottom: 1rem;
+    }
+    
+    .heading-secondary{
+        font-size: 1.2rem;
+        letter-spacing: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.6rem;
+    }
+    .social-txt{
+        font-size: 1.6rem;
+    }
+    .social-facebook{
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 66.25em){
+    .main-nav .main-nav-list{
+        margin-top: 2rem;
+    }
+    .intro-flex{
+        margin-top: -1rem;
+    }
+}
+
+@media (max-width: 64em){
+    .main-nav-link:link, .main-nav-link:visited{
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 62.5em){
+     .heading-primary{
+        font-size: 10rem;
+    }
+
+    .main-nav li,
+    .social-txt,
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.4rem;
+    }
+
+    ion-icon{
+        font-size: 2.7rem;
+    }
+}
+/* Below 944px => 944/16 (Tablets) 59em*/ 
+@media (max-width: 59em){
+    /* Intro */
+    #intro-0{
+        margin-top: 0rem;
+    }
+
+    .heading-primary{
+        font-size: 10rem;
+    }
+
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.4rem;
+    }
+    
+    .social-txt{
+        font-size: 1.4rem;
+    }    
+
+    #intro-3 {
+        font-size: 2.2rem;
+    }
+
+    .social-facebook{
+        margin-right: 2rem;
+    }
+
+    .carousel-cell{
+        font-size: 1.6rem;
+    }
+    /* Cultue */
+    .culture-photo{
+        width: 30rem;     
+    }
+    
+
+    .culture-title{
+        font-size: 2.8rem;
+    }
+
+    .culture-Description{
+        font-size: 1.6rem;
+    }
+    .culture-btn, .culture-btn:link, .btn:visited{
+        font-size: 1.4rem;
+    }
+
+    /* Calendar */
+    .activ-description{
+        margin-top: 2rem;
+    }
+
+    /* Contact */
+    .flex-items:nth-child(1) {
+       order: 1;
+    }
+
+    .flex-items:nth-child(2) {
+        order: 3;
+        margin-top: 3rem;
+     }
+
+     .flex-items:nth-child(3) {
+        order: 4;
+        margin-top: 3rem;
+        flex-basis: 100%!important;
+        text-align: left;
+     }
+     
+     .flex-items:nth-child(4){
+         margin-top: 3rem;
+         flex-basis: 100%;
+         order: 2;
+     }
+
+     /* Footer */
+     #item-0 img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 57.5em){
+    /* Intro */
+    .heading-primary{
+        font-size: 10rem;
+    }
+    .btn, .btn:link, .btn:visited{
+        padding: 1.4rem 3rem;
+    }
+
+    .spacing{
+        padding: 0rem 0rem;
+    }
+
+}
+
+
+@media (max-width: 52em){
+    #intro-3{
+        margin-bottom: 2rem;
+    }
+    .heading-primary{
+        font-size: 8rem;
+    }
+    .heading-secondary{
+        font-size: 1.1rem;
+    }
+
+    .activ-description{
+        margin-top: 1.7rem;
+    }
+    #item-0 img{
+        width: 30%;
+    }
+
+    /* Calendar */
+    .section-calendar, .section-gallery, .section-contact, .footer{
+        padding: 4rem 2rem;
+    }
+}
+
+
+@media (max-width: 48em) {
+    #intro-0{
+        margin-top: -1rem;
+    } 
+}
+
+@media (max-width: 46.5em) {
+    #intro-3{
+        margin-bottom: 1rem;
+    }
+
+    #intro-3 ion-icon{
+        font-size: 1.9rem;
+    }
+
+    /* Culture */
+    .culture-Description{
+        font-size: 1.45rem;
+    }
+
+    /* Calendar */
+    .flex-container .activ-description{
+        font-size: 1.3rem;
+    }
+    .flex-container .activ-title{
+        font-size: 1.8rem;
+    }
+}
+
+
+ /* Below 704px 44em*/ 
+ @media (max-width: 44em){
+    .heading-primary{
+        font-size: 7rem;
+    }
+    .btn, .btn:link, .btn:visited{
+        padding: 1.2rem 2rem;
+    }
+    
+ }
+
+ @media (max-width: 42.5em){
+    /* Culture */
+    #intro-0{
+        margin-top: -3rem;
+    }
+    .culture-left{
+        padding-left: 0rem;
+    }
+    .culture-right{
+        padding-right: 2rem;
+    }
+ }
+
+ @media (max-width: 40.88em){
+     h3{
+         font-size: 1rem;
+     }
+ }
+
+ @media (max-width: 37.5em){
+     #intro-0{
+        margin-top: -2rem;
+     }
+    .icon-mobile-nav {
+        height: 5rem;
+        width: 5rem;
+    }
+    .intro-flex{
+        margin-top: -3rem;
+    }
+    .heading-secondary{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.2rem;
+    }
+    .social-txt{
+        padding: 0;
+    }
+    /* Culture */
+    .culture{
+        flex-direction: column;
+    }
+    .culture-right{
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+    .culture-left{
+        width: 100%;
+    }
+    .culture-btn, .culture-btn:link, .btn:visited{
+        margin-top: 1rem;
+    }
+    .culture-Description{
+        margin-top: 1rem;
+    }
+    .culture-saberm{
+        text-align: center;
+        padding-top: 0rem;
+    }
+    /* Calendar */
+    /* .section-calendar, .section-gallery, .section-contact, .footer{
+        padding: 4rem 1rem;
+    } */
+    .flex-container .item1{
+        height: 110px;
+    }
+    .flex-container .activ-description{
+        margin-top: 1.4rem;
+    }
+
+    /* Footer */
+    #item-0{
+        transform: translateX(-35px);
+
+        & img{
+            width: 50%; 
+        }
+    }
+    #item-1 p{
+        font-size: 1.1rem;
+    }
+    #item-2{
+        padding: 0rem 2rem;
+
+        & .footer-info-desc a{
+            font-size: 1.3rem;
+        }
+    }
+ }
+
+@media (max-width: 33.75em){
+    .modal.active{
+        transform: translateX(20rem);
+    }
+    .main-nav .main-nav-list{
+        margin-top: 3rem;
+    }
+    .main-nav li a{
+        padding: 0.5rem 2rem;
+    }
+    .main-nav-link:link, .main-nav-link:visited{
+        font-size: 1.2rem;
+    }
+    #intro-0{
+        margin-top: 6rem;
+    }
+   
+    #intro-3{
+            text-align: center;
+            position: relative;
+            margin-top: 11rem;
+            margin-left: 0rem;
+    }
+
+    .social-facebook{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    
+    .item3 .activ-description{
+        width: 10vh;
+    }
+    .section-intro{
+        background-size: 250%;
+        background-position: center;
+        padding-bottom: 47%;
+        height: 460px;
+    }
+    
+
+} 
+
+
+@media (max-width: 30.1875em){
+    #intro-3{
+        margin-top: 6rem;
+    }
+}

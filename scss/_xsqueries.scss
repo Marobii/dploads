@@ -1,0 +1,184 @@
+@media (max-width: 29.375em){
+    .main-nav .main-nav-list{
+        margin-top: 4rem;
+    }
+    .intro-flex{
+        margin-top: -4rem;
+    }
+    .heading-primary{
+        color: #f1f2eb;
+        font-size: 7rem;
+    }
+    .heading-secondary{
+        font-size: 1.2rem;
+    }
+    #intro-0{
+        margin-top: 4rem;
+    }
+    #intro-1{
+        margin-bottom: 1rem;
+    }
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.4rem;
+    }
+    .culture-btn, .culture-btn:link, .btn:visited{
+        margin-top: 2rem;
+    }
+
+    .modal-body{
+        & h3 p{
+          font-size: 1.4rem;
+        }
+      }
+}
+
+@media (max-width: 26.5625em){
+    .intro-flex{
+        margin-top: -5rem;
+    }
+}
+
+ /* Below 544px (Phones) 34em*/ 
+ /* Iphone XR/ */
+ @media (max-width: 25.875em){
+    /* Intro */
+    .intro-flex{
+        margin-top: -5rem;
+    }
+    .icon-mobile-nav {
+        height: 4rem;
+        width: 4rem;
+    }
+    .btn, .btn:link, .btn:visited{
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+     /* Testimonials */
+    .spacing{
+        padding: 2rem 1rem;
+    }
+    .carousel{
+        
+        padding: 2rem 2rem;
+    }
+    .carousel-cell{
+        height: auto!important;
+        font-size: 1.5rem;
+        padding: 4rem 1rem;
+    }
+
+     /* Culture */
+    .culture-Description{
+        font-size: 1.38rem;
+        margin-top: -1rem;
+    }
+    .culture-saberm{
+        padding-top: 1.2rem;
+    }
+
+    /* Footer */
+    #item-1 {
+        flex-basis: 100%;
+        order: 1;
+
+        & p{
+            padding: 4rem 1rem;
+        }
+
+    }
+    .footer-grid:nth-child(2) {
+        flex-basis: 100%;
+        order: 3;
+    }
+    .footer-grid:nth-child(3) {
+        flex-basis: 100%;
+        order: 2;
+    }
+    #item-0{
+        padding: 0rem 1rem;
+        transform: translateX(0);
+
+        & img{
+            width: 60%;
+        }
+    }
+}
+
+
+/* Iphone Se */
+@media (max-width: 23.4375em){
+    #intro-0{
+        margin-top: 6rem;
+    }
+    
+    /* Calendar */
+    .flex-container .item1{
+        height: 120px;
+        width: 60px;
+    }
+    .flex-container .activ-title{
+        font-size: 1.6rem;
+    }
+    .flex-container>div{
+        padding: 0rem;
+    }
+
+  /* Contact */    
+}
+
+/* Iphone X */
+
+
+
+@media (max-width: 20em) {
+    #intro-0 {
+        margin-top: 8rem;
+    }
+
+    .main-nav .main-nav-list{
+        margin-top:2rem    
+    }
+    
+    .section-intro{
+        background-size: 280%;
+    }
+    
+    .heading-primary{
+        margin-bottom: 0.5rem;
+    }
+    .heading-secondary{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 17.5em){
+    
+    .intro-flex{
+        margin-top: -5rem;
+    }
+    .heading-secondary{
+        margin-bottom: 0rem;
+    }
+    /* Culture */
+    .culture-photo{
+        width: 20rem;
+    }
+    .culture-saberm{
+        padding-top: 2rem;
+    }
+
+    /* Calendar */
+    .flex-container .item1 {
+        height: 120px;
+        width: 50px;
+
+    }    
+    
+    .flex-container .activ-title {
+        font-size: 1.4rem;
+    }
+    
+    .flex-container .activ-description {
+        font-size: 1rem;
+    }
+}
